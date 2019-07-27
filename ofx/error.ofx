@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?OFX OFXHEADER="200" VERSION="211" SECURITY="NONE" OLDFILEUID="NONE" NEWFILEUID="NONE"?>
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>2000</CODE>
+        <SEVERITY>ERROR</SEVERITY>
+        <MESSAGE>We were unable to process your request. Please try again later.</MESSAGE>
+      </STATUS>
+      <DTSERVER>20181007222526.659[-4:EDT]</DTSERVER>
+      <LANGUAGE>ENG</LANGUAGE>
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <SIGNUPMSGSRSV1>
+    <ACCTINFOTRNRS>
+      <TRNUID>17dad707-2728-4742-8266-ee564a194cf8</TRNUID>
+      <STATUS>
+        <CODE>15500</CODE>
+        <SEVERITY>ERROR</SEVERITY>
+      </STATUS>
+    </ACCTINFOTRNRS>
+  </SIGNUPMSGSRSV1>
+</OFX>

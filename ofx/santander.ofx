@@ -1,0 +1,91 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20170904082855[-3:GMT]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>SANTANDER
+                <FID>SANTANDER
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>BRL
+                <BANKACCTFROM>
+                    <BANKID>034
+                    <ACCTID>3423130031625
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20170904082855[-3:GMT]
+                    <DTEND>20170904082855[-3:GMT]
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20170901000000[-3:GMT]
+                        <TRNAMT>            -11,76
+                        <FITID>00190944
+                        <CHECKNUM>00190944
+                        <PAYEEID>0
+                        <MEMO>TARIFA REGISTRO TITULO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20170901000000[-3:GMT]
+                        <TRNAMT>             -2,23
+                        <FITID>00030409
+                        <CHECKNUM>00030409
+                        <PAYEEID>0
+                        <MEMO>IOF IMPOSTO OPERACOES FINANCEIRAS  PERIODO: 01/08 A 31/08/17
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20170901000000[-3:GMT]
+                        <TRNAMT>            -33,02
+                        <FITID>00040409
+                        <CHECKNUM>00040409
+                        <PAYEEID>0
+                        <MEMO>IOF ADICIONAL - AUTOMATICO         PERIODO: 01/08 A 31/08/17
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20170901000000[-3:GMT]
+                        <TRNAMT>             47,01
+                        <FITID>00050409
+                        <CHECKNUM>00050409
+                        <PAYEEID>0
+                        <MEMO>RESGATE AUT CONTAMAX EMPRESARIAL
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>              348,29
+                    <DTASOF>20170904082855[-3:GMT]
+                </LEDGERBAL>
+                <AVAILBAL>
+                  <BALAMT>              2415,87
+                  <DTASOF>20170904082855[-3:GMT]
+                </AVAILBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>
