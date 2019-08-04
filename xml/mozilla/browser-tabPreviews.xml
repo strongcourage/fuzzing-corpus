@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+
+<bindings id="tabPreviews"
+          xmlns="http://www.mozilla.org/xbl"
+          xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:xbl="http://www.mozilla.org/xbl">
+  <binding id="ctrlTab-preview" extends="chrome://global/content/bindings/button.xml#button-base">
+    <content pack="center">
+      <xul:stack>
+        <xul:vbox class="ctrlTab-preview-inner" align="center" pack="center"
+                  xbl:inherits="width=canvaswidth">
+          <xul:hbox class="tabPreview-canvas" xbl:inherits="style=canvasstyle">
+            <children/>
+          </xul:hbox>
+          <xul:label xbl:inherits="value=label,crop" class="plain"/>
+        </xul:vbox>
+        <xul:hbox class="ctrlTab-favicon-container" xbl:inherits="hidden=noicon">
+          <xul:image class="ctrlTab-favicon" xbl:inherits="src=image"/>
+        </xul:hbox>
+      </xul:stack>
+    </content>
+    <handlers>
+      <handler event="mouseover" action="ctrlTab._mouseOverFocus(this);"/>
+      <handler event="command" action="ctrlTab.pick(this);"/>
+      <handler event="click" button="1" action="ctrlTab.remove(this);"/>
+      <handler event="click" button="2" action="ctrlTab.pick(this);"/>
+    </handlers>
+  </binding>
+</bindings>

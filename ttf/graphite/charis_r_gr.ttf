@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+<link rel="icon" href="/graphitedev/static/hgicon.png" type="image/png" />
+<meta name="robots" content="index, nofollow" />
+<link rel="stylesheet" href="/graphitedev/static/style-paper.css" type="text/css" />
+
+<title>graphitedev: a03deb2e5bb3 tests/fonts/charis_r_gr.ttf</title>
+</head>
+<body>
+
+<div class="container">
+<div class="menu">
+<div class="logo">
+<a href="http://mercurial.selenic.com/">
+<img src="/graphitedev/static/hglogo.png" alt="mercurial" /></a>
+</div>
+<ul>
+<li><a href="/graphitedev/shortlog/a03deb2e5bb3">log</a></li>
+<li><a href="/graphitedev/graph/a03deb2e5bb3">graph</a></li>
+<li><a href="/graphitedev/tags">tags</a></li>
+<li><a href="/graphitedev/branches">branches</a></li>
+</ul>
+<ul>
+<li><a href="/graphitedev/rev/a03deb2e5bb3">changeset</a></li>
+<li><a href="/graphitedev/file/a03deb2e5bb3/tests/fonts/">browse</a></li>
+</ul>
+<ul>
+<li class="active">file</li>
+<li><a href="/graphitedev/file/tip/tests/fonts/charis_r_gr.ttf">latest</a></li>
+<li><a href="/graphitedev/diff/a03deb2e5bb3/tests/fonts/charis_r_gr.ttf">diff</a></li>
+<li><a href="/graphitedev/annotate/a03deb2e5bb3/tests/fonts/charis_r_gr.ttf">annotate</a></li>
+<li><a href="/graphitedev/log/a03deb2e5bb3/tests/fonts/charis_r_gr.ttf">file log</a></li>
+<li><a href="/graphitedev/raw-file/a03deb2e5bb3/tests/fonts/charis_r_gr.ttf">raw</a></li>
+</ul>
+</div>
+
+<div class="main">
+<h2><a href="/graphitedev/">graphitedev</a></h2>
+<h3>view tests/fonts/charis_r_gr.ttf @ 1063:a03deb2e5bb3</h3>
+
+<form class="search" action="/graphitedev/log">
+
+<p><input name="rev" id="search1" type="text" size="30" /></p>
+<div id="hint">find changesets by author, revision,
+files, or words in the commit message</div>
+</form>
+
+<div class="description">Add fuzztest discovered regressions and the script to run them</div>
+
+<table id="changesetEntry">
+<tr>
+ <th class="author">author</th>
+ <td class="author">&#84;&#105;&#109;&#32;&#69;&#118;&#101;&#115;</td>
+</tr>
+<tr>
+ <th class="date">date</th>
+ <td class="date">Thu Sep 06 11:21:44 2012 +0700 (6 weeks ago)</td>
+</tr>
+<tr>
+ <th class="author">parents</th>
+ <td class="author"><a href="/graphitedev/file/dec7ca17e8a5/tests/fonts/charis_r_gr.ttf">dec7ca17e8a5</a> </td>
+</tr>
+<tr>
+ <th class="author">children</th>
+ <td class="author"></td>
+</tr>
+
+</table>
+
+<div class="overflow">
+<div class="sourcefirst"> line source</div>
+
+<div class="parity0 source"><a href="#l1" id="l1">     1</a> (binary:application/octet-stream)</div>
+<div class="sourcelast"></div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+

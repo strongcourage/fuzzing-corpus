@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+    <![CDATA[
+      @font-face {
+        font-family: "Liberation";
+        src:url(./svg.otf);
+      }
+      text
+      {
+        font-family: Liberation;
+        font-size: 200px;
+        fill-opacity : 0.5;
+        fill: url(#grad);
+        stroke-opacity: 1.0;
+        stroke: url(#grad2);
+      }
+    ]]>
+  </style>
+  <!-- glyphid -->
+  <text x="0" y="200">
+  L
+  </text>
+  <!-- glyphchar -->
+  <text x="0" y="400">
+  M
+  </text>
+  <!-- glyphchar with UVS selector -->
+  <text x="0" y="600">
+  L&#xfe01;
+  </text>
+    <rect x="20" y="20" width="160" height="60" stroke="red" stroke-width="10"
+      fill-opacity="0.5" stroke-opacity="0.5" />
+  <rect x="20" y="120" width="160" height="60" stroke="red" stroke-width="10"
+      fill-opacity="0.5" stroke-opacity="0.5" />
+        <text x="0" y="200" stroke="black">Y</text>
+          <mask id="m" x="0" y="0" width="200" height="200">
+    <rect x="30" y="60" width="80" height="80" stroke-width="5"
+      stroke="black" fill="red"/>
+    <rect x="30" y="50" width="10" height="10" stroke="none"
+      fill="turquoise" />
+  </mask>
+  <rect width="200" height="200" mask="url(#m)"/>
+    <mask id="m" x="0" y="0" width="200" height="200">
+    <text x="20" y="150" style="font: 100px Liberation">L</text>
+  </mask>
+  <rect width="200" height="200" mask="url(#m)"/>
+    <rect x="20" y="20" width="160" height="160" fill="turquoise" />
+  <rect x="10" y="210" width="180" height="180" fill="thistle" />
+    <text fill="turquoise" x="0" y="200">
+  N
+  </text>
+  <text fill="thistle" x="0" y="400">
+  O
+  </text>
+    <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="800" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="purple" offset="0%" />
+      <stop stop-color="lime" offset="100%" />
+    </linearGradient>
+    <radialGradient id="grad2" cx="250" cy="400" r="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="red" offset="0%" />
+      <stop stop-color="blue" offset="100%" />
+    </radialGradient>
+  </defs>
+
+  <rect x="20" y="20" width="160" height="160" stroke="none"
+    fill="url(#grad)" />
+    
+  <rect x="310" y="10" width="180" height="180" fill="url(#grad)"
+    stroke="none" />
+    
+  <rect x="20" y="320" width="160" height="160" fill="burlywood"
+    stroke="url(#grad2)" stroke-width="10" />
+    
+  <rect x="310" y="310" width="180" height="180" fill="url(#grad2)"
+    stroke="url(#grad)" stroke-width="20" />
+        <linearGradient id="grad" x1="0" y1="0" x2="800" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="purple" offset="0%" />
+      <stop stop-color="lime" offset="100%" />
+    </linearGradient>
+    <radialGradient id="grad2" cx="250" cy="400" r="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="red" offset="0%" />
+      <stop stop-color="blue" offset="100%" />
+    </radialGradient>
+    
+
+  <text x="0" y="200" fill="url(#grad)" stroke="url(#grad2)">N</text>
+  <text x="300" y="200" fill="url(#grad)" stroke="url(#grad2)">O</text>
+  <text x="0" y="500" fill="url(#grad)" stroke="url(#grad2)">P</text>
+  <text x="300" y="500" fill="url(#grad)" stroke="url(#grad2)">Q</text>
+  
+    <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="800" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="purple" offset="0%" />
+      <stop stop-color="lime" offset="100%" />
+    </linearGradient>
+    <radialGradient id="grad2" cx="250" cy="400" r="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="red" offset="0%" />
+      <stop stop-color="blue" offset="100%" />
+    </radialGradient>
+  </defs>
+
+  <rect x="20" y="20" width="160" height="160" stroke-width="10"
+        fill="url(#grad)" stroke="url(#grad2)"
+        fill-opacity="0.5" stroke-opacity="1.0" />
+    
+  <rect x="320" y="20" width="160" height="160" stroke-width="10"
+        fill="url(#grad)" stroke="url(#grad2)"
+        fill-opacity="1.0" stroke-opacity="0.5" />
+    
+  <rect x="20" y="320" width="160" height="160" stroke-width="10"
+        fill="url(#grad2)" stroke="url(#grad)"
+        fill-opacity="0.5" stroke-opacity="1.0" />
+    
+  <rect x="320" y="320" width="160" height="160" stroke-width="10"
+        fill="url(#grad2)" stroke="url(#grad)"
+        fill-opacity="1.0" stroke-opacity="0.5" />
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="800" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="purple" offset="0%" />
+      <stop stop-color="lime" offset="100%" />
+    </linearGradient>
+    <radialGradient id="grad2" cx="250" cy="400" r="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="red" offset="0%" />
+      <stop stop-color="blue" offset="100%" />
+    </radialGradient>
+    
+  </defs>
+
+  <text x="0" y="200">R</text>
+  <text x="300" y="200">S</text>
+  <text x="0" y="500">T</text>
+  <text x="300" y="500">U</text>
+  
+    <defs>
+    <pattern id="pat" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect x="5" y="5" width="30" height="30" stroke="salmon" stroke-width="5"
+        fill="mistyrose" />
+    </pattern>
+    <pattern id="pat2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect x="5" y="5" width="10" height="10" stroke="lavenderblush" stroke-width="2"
+        fill="lemonchiffon" />
+    </pattern>
+  </defs>
+
+  <rect x="20" y="20" width="160" height="160" stroke-width="10"
+        fill="url(#pat)" stroke="url(#pat2)"
+        fill-opacity="1.0" stroke-opacity="0.5" />
+    
+  <rect x="320" y="20" width="160" height="160" stroke-width="10"
+        fill="url(#pat)" stroke="url(#pat2)"
+        fill-opacity="0.5" stroke-opacity="1.0" />
+    
+  <rect x="20" y="320" width="160" height="160" stroke-width="10"
+        fill="url(#pat2)" stroke="url(#pat)"
+        fill-opacity="1.0" stroke-opacity="0.5" />
+    
+  <rect x="320" y="320" width="160" height="160" stroke-width="10"
+        fill="url(#pat2)" stroke="url(#pat)"
+        fill-opacity="0.5" stroke-opacity="1.0" />
+
+</svg>
