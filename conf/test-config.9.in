@@ -1,0 +1,17 @@
+create
+
+compress
+
+&DIR&/test.log {
+    monthly
+    rotate 0
+    mail user@invalid.
+    mailfirst
+    sharedscripts
+
+    postrotate
+	touch scriptout
+	echo $(cat scriptout) foo > foo
+	mv foo scriptout
+    endscript
+}

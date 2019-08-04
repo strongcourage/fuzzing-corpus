@@ -1,0 +1,27 @@
+create
+
+&DIR&/test.log &DIR&/test2.log {
+    size 5
+    rotate 1
+    sharedscripts
+    prerotate
+		touch scriptout
+		IFS=$(printf "\n\b")
+		printf "\"" >> scriptout
+		for f in "$1"
+		do
+			printf '%s' "$(basename $f)" >>  scriptout
+			printf ";" >> scriptout
+		done
+    endscript
+    postrotate
+		touch scriptout
+		IFS=$(printf "\n\b")
+		for f in "$1"
+		do
+			printf '%s' "$(basename $f)" >>  scriptout
+			printf ";" >> scriptout
+		done
+		printf "\"" >> scriptout
+    endscript
+}

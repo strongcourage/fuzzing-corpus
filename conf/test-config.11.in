@@ -1,0 +1,20 @@
+create
+
+compress
+compresscmd gzip
+uncompresscmd gunzip
+compressext .gz
+
+&DIR&/test.log {
+    monthly
+    rotate 1
+    mail user@invalid.
+    maillast
+    sharedscripts
+
+    postrotate
+	touch scriptout
+	echo $(cat scriptout) foo > foo
+	mv foo scriptout
+    endscript
+}

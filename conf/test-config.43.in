@@ -1,0 +1,17 @@
+create
+
+&DIR&/test*.log {
+    size 5
+    rotate 1
+    nosharedscripts
+    prerotate
+		touch scriptout
+		printf '%s' "$(basename $1)" >> scriptout
+		printf ";" >> scriptout
+    endscript
+    postrotate
+		touch scriptout
+		printf '%s' "$(basename $1)" >>  scriptout
+		printf ";" >> scriptout
+    endscript
+}

@@ -1,0 +1,15 @@
+create
+
+&DIR&/test*.log {
+    monthly
+    rotate 0
+    mail user@invalid.
+    maillast
+    sharedscripts
+
+    preremove
+	touch scriptout
+	printf '%s' "$(basename $*)" >> scriptout
+	this should trigger an error
+    endscript
+}

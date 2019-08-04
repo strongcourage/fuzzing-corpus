@@ -1,0 +1,11 @@
+create
+
+# tests more compressoptions
+&DIR&/test.log {
+    compress
+    compresscmd ./compress-error
+    compressoptions -f -9
+    compressext .gz
+    weekly
+    rotate 1
+}

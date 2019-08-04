@@ -1,0 +1,11 @@
+&DIR&/test.log {
+    create
+    rotate 2
+    size 0
+    compress
+    compresscmd gzip
+    uncompresscmd gunzip
+    compressext .gz
+    delaycompress
+    mail user@invalid.
+}
